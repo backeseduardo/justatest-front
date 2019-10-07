@@ -7,7 +7,6 @@ interface IProps {
 }
 
 export default function AuthLayout({ children }: IProps) {
-  console.log(children);
   return (
     <>
       <Header />
